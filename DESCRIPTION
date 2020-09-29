@@ -1,0 +1,21 @@
+Package: foofactors
+Title: Gabe Makes a Toy Package
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Gabe",
+           family = "Zentner",
+           role = c("aut", "cre"),
+           email = "gzentner@example.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Combines two factors.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat
+Imports: 
+    forcats
+URL: https://github.com/gzentner/foofactors
+BugReports: https://github.com/gzentner/foofactors/issues
